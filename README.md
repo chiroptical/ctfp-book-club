@@ -11,7 +11,7 @@ The book club will meet once per month on the third Monday of the month starting
 
 ## Format
 
-Each week we will discuss chapters or topics from the book (see #Schedule below). We will work our way through discussing the content as well as what is requested via Zoom or Twitch chat. If we encounter exercises, we will compare and contrast solutions in the `exercises/` directory. Attendees will submit code in the `exercises/` directory via a PR to `exercises/{user}/chapter{N}` where `{user}` is your Github username and `{N}` is the chapter we are working on. Ideally, each exercise directory will contain one project.
+Each week we will discuss chapters or topics from the book (see #Schedule below). We will work our way through discussing the content as well as what is requested via Zoom or Twitch chat. If we encounter exercises, we will compare and contrast solutions in the `exercises/` directory. Attendees will submit code in the `exercises/` directory via a PR to `exercises/{user}/chapter{N}` where `{user}` is your Github username and `{N}` is the chapter we are working on. An example PR is available [here][pr1]
 
 ## Schedule
 
@@ -24,3 +24,4 @@ This section will contain the content to be covered each week.
 [print book]: https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco
 [twitch]: https://www.twitch.tv/chiroptical
 [zoom]: https://zoom.us/
+[pr1]: https://github.com/barrymoo/ctfp-book-club/pull/1
