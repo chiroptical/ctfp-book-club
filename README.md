@@ -17,7 +17,7 @@ Each week we will discuss chapters or topics from the book (see #Schedule below)
 
 This section will contain the content to be covered each week.
 
-- 10/21/19: ...
+- 10/21/19: Explaination of book club and Chapter 1
 
 <!-- Useful links below -->
 [book]: https://github.com/hmemcpy/milewski-ctfp-pdf
