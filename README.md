@@ -1,4 +1,4 @@
-# cftp-book-club
+# ctfp-book-club
 
 Pittsburgh Functional Programming Book Club featuring Category Theory for Programmers by Bartosz Milewski. The content for the book can be found [on github][book]. Additionally, print copies can be purchased from [blurb][print book]. This repository is going to serve two purposes:
 
