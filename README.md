@@ -2,10 +2,10 @@
 
 Pittsburgh Functional Programming Book Club featuring Category Theory for Programmers by Bartosz Milewski. The content for the book can be found [on github][book]. Additionally, print copies can be purchased from [blurb][print book]. This repository is going to serve a few purposes:
 
-1. Describe the motivations behind hosting this book club
-2. Describe the format of our book club
+1. Describe the [Motivations](#motivations) behind hosting this book club
+2. Describe the [Format](#format) of our book club
 3. Contain code from exercises submitted by various folks in our group
-4. Show the schedule and guidelines for participation
+4. Show the [Schedule](#schedule) and [Guidelines for Participation](#guidelines-for-participation)
 
 ## Motivations
 
@@ -19,11 +19,9 @@ In no particular order,
 - Understand design decisions of programming languages
 - Discover relationships in the semantics of programming language
 
-## Description
+## Format
 
 The book club will meet once per month on the third Monday of the month starting on October 21st 2019. We will be broadcasting our conversations live on [my twitch channel][twitch]. We will be using [zoom][zoom] to do our video conferencing.
-
-## Format
 
 Each week we will discuss chapters or topics from the book (see #Schedule below). We will work our way through discussing the content as well as what is requested via Zoom or Twitch chat. If we encounter exercises, we will compare and contrast solutions.
 
