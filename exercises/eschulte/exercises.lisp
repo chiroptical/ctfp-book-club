@@ -84,3 +84,47 @@
   (etypecase integer-or-boolean
     (integer integer-or-boolean)
     (boolean (if integer-or-boolean 1 0))))
+
+
+;;;; Chapter 6.
+(defclass shape () ())
+
+(defclass circle (shape)
+  ((radius :initarg :radius :accessor radius :initform 0 :type number)))
+
+(defclass rectangle (shape)
+  ((width :initarg :width :accessor width :initform 0 :type number)
+   (height :initarg :height :accessor height :initform 0 :type number)))
+
+(declaim (ftype (function (shape) number) area))
+(defgeneric area (shape)
+  (:documentation "Return the area of SHAPE.")
+  (:method ((circle circle))
+    (* pi (radius circle) (radius circle)))
+  (:method ((rectangle rectangle))
+    (* (width rectangle) (height rectangle))))
+
+(defgeneric circumference (shape)
+  (:documentation "Return the circumference of SHAPE.")
+  (:method ((circle circle))
+    (* 2 pi (radius circle)))
+  (:method ((rectangle rectangle))
+    (* 2 (+ (width rectangle) (height rectangle)))))
+
+(defclass square (shape)
+  ((side :initarg :side :accessor side :initform 0 :type number)))
+
+(defmethod area ((square square))
+  (expt (side square) 2))
+
+(defmethod circumference ((square square))
+  (* 4 (side square)))
+
+;;; Alternately, square could have been defined as a rectangle.
+#+(or )
+(progn
+  (defclass square (rectangle)
+    ((side :initarg :side :accessor side :initform 0 :type number)))
+
+  (defmethod width ((square square)) (side square))
+  (defmethod height ((square square)) (side square)))
