@@ -14,12 +14,9 @@
 
 
 ;;;; Chapter 1.
-
-;;; 1.1
 (defun my-identity (&rest arguments)
   (apply #'values arguments))
 
-;;; 1.2
 (defun my-compose (f g)
   "Alexandria already has a compose, could just do [f g]."
   (lambda (&rest args)
@@ -53,9 +50,13 @@
   (declare (optimize (speed 3)))
   (safe-root (safe-reciprocal single-float)))
 
-;; CTFP> (let ((many (iter (for i :below 10000000)
-;;                         (collect (float i)))))
-;;         (time (prog1 :done (mapc #'safe-root-reciprocal many))))
+#+profile
+(disassemble #'safe-root)
+
+#+profile
+(let ((many (iter (for i :below 10000000)
+                  (collect (float i)))))
+  (time (prog1 :done (mapc #'safe-root-reciprocal many))))
 ;; Evaluation took:
 ;;   0.227 seconds of real time
 ;;   0.226636 seconds of total run time (0.226219 user, 0.000417 system)
@@ -125,7 +126,7 @@
   (* 4 (the single-float (side square))))
 
 ;;; Alternately, square could have been defined as a rectangle.
-#+(or )
+#+alternate
 (progn
   (defclass square (rectangle)
     ((side :initarg :side :accessor side :initform 0 :type single-float)))
