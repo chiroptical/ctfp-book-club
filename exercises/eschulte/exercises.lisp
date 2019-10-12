@@ -90,41 +90,45 @@
 (defclass shape () ())
 
 (defclass circle (shape)
-  ((radius :initarg :radius :accessor radius :initform 0 :type number)))
+  ((radius :initarg :radius :accessor radius :initform 0 :type single-float)))
 
 (defclass rectangle (shape)
-  ((width :initarg :width :accessor width :initform 0 :type number)
-   (height :initarg :height :accessor height :initform 0 :type number)))
+  ((width :initarg :width :accessor width :initform 0 :type single-float)
+   (height :initarg :height :accessor height :initform 0 :type single-float)))
 
-(declaim (ftype (function (shape) number) area))
+(declaim (ftype (function (shape) double-float) area))
 (defgeneric area (shape)
   (:documentation "Return the area of SHAPE.")
   (:method ((circle circle))
-    (* pi (radius circle) (radius circle)))
+    (let ((r (the single-float (radius circle))))
+      (* pi r r)))
   (:method ((rectangle rectangle))
-    (* (width rectangle) (height rectangle))))
+    (* (the single-float (width rectangle))
+       (the single-float (height rectangle)))))
 
+(declaim (ftype (function (shape) double-float) circumference))
 (defgeneric circumference (shape)
   (:documentation "Return the circumference of SHAPE.")
   (:method ((circle circle))
-    (* 2 pi (radius circle)))
+    (* 2 pi (the single-float (radius circle))))
   (:method ((rectangle rectangle))
-    (* 2 (+ (width rectangle) (height rectangle)))))
+    (* 2 (+ (the single-float (width rectangle))
+            (the single-float (height rectangle))))))
 
 (defclass square (shape)
-  ((side :initarg :side :accessor side :initform 0 :type number)))
+  ((side :initarg :side :accessor side :initform 0 :type single-float)))
 
 (defmethod area ((square square))
-  (expt (side square) 2))
+  (expt (the single-float (side square)) 2))
 
 (defmethod circumference ((square square))
-  (* 4 (side square)))
+  (* 4 (the single-float (side square))))
 
 ;;; Alternately, square could have been defined as a rectangle.
 #+(or )
 (progn
   (defclass square (rectangle)
-    ((side :initarg :side :accessor side :initform 0 :type number)))
+    ((side :initarg :side :accessor side :initform 0 :type single-float)))
 
   (defmethod width ((square square)) (side square))
   (defmethod height ((square square)) (side square)))
