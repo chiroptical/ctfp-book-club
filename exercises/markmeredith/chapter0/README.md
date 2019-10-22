@@ -5,4 +5,4 @@
    C.html does not mean A.html links to C.html
 
 5. No, friendships are not transitive.
-6. TODO
+6. Yes, where the vertices are the objects and the property "has a path with zero or more edges" are morphisms.
