@@ -14,6 +14,8 @@ mod tests {
     #[test]
     fn test_id() {
         assert_eq!(123, super::identity(123));
+        let x = 456;
+        assert_eq!(&x, super::identity(&x));
         assert_eq!("abc", super::identity("abc"));
     }
 
