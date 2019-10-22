@@ -48,6 +48,7 @@ able to catch up and not leave them behind.
 All streams will start at 7:30 PM EST
 
 - 10/21/19: Explanation of book club and Chapter 1
+- 11/18/19: Chapter 2
 
 ## Guidelines for Participation
 
