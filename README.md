@@ -37,7 +37,8 @@ we will compare and contrast solutions.
 Regarding exercises, attendees will submit code in the `exercises/` directory
 via a PR to `exercises/{user}/chapter{N}` where `{user}` is your Github
 username and `{N}` is the chapter we are working on. An example PR is available
-[here][pr1].
+[here][pr1]. Please provide some details in a top-level `README.md` about how
+to run your examples.
 
 Regarding past content, discussion and comments on past material is encouraged
 however jumping forward in the book will be discouraged. We want folks to be
@@ -52,12 +53,17 @@ All streams will start at 7:30 PM EST
 
 ## Guidelines for Participation
 
-The book club video conference component will only be available to Pittsburgh
-Functional Programming members.  Additionally, this repository will only accept
-PRs from PGH FP members. We would like to keep the discussion as intimate as
-possible for our group. All others are welcome in the Twitch chat to ask
-questions and work on exercises. If you would like to share a code snippet to
-add to the discussion please do so in a gist.
+We are encouraging active participation in the book club from anyone
+interested. To be involved you should tune into the [stream][twitch] during the
+scheduled times where a link to the Zoom conference as well as a password will
+be provided to. In Zoom we will use the [raise hand][raise hand] feature to
+determine who can talk. You will only be warned once for not following the
+rules. If you break the rules I will remove you from the call. If you are
+discussing anything inappropriate I will remove you immediately.
+
+Pull requests to this repository will be accepted if they follow the
+guidelines from the [Format](#format) section. They will not be checked for
+correctness.
 
 <!-- Useful links below -->
 [book]: https://github.com/hmemcpy/milewski-ctfp-pdf
@@ -65,3 +71,4 @@ add to the discussion please do so in a gist.
 [twitch]: https://www.twitch.tv/chiroptical
 [zoom]: https://zoom.us/
 [pr1]: https://github.com/barrymoo/ctfp-book-club/pull/1
+[raise hand]: https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar
