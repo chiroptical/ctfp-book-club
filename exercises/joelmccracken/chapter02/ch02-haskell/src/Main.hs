@@ -16,6 +16,38 @@ runFib = do
   let initial = []
   putStrLn $ show $ fst $ runState (fib'' (10 :: Integer)) []
 
+newtype Mu a = Mu (Mu a -> a)
+y :: (b -> b) -> b
+y f =
+  let
+    f1 h = h $ Mu h
+    f2 x = (f . (\(Mu g) -> g) x) $ x
+  in f1 f2
+
+
+-- class Memo where
+--   maybeLookup
+
+
+fibby :: Monad m => Integer -> m Integer
+fibby 0 = return 1
+fibby 1 = return 1
+fibby x = undefined
+
+
+
+-- fiby :: (Integer -> Integer) -> Integer -> Integer
+-- fiby f =
+--   \x ->
+--     case x of
+--       0 -> 1
+--       1 -> 1
+--       _ -> (f f (x -1)) + (f f (x - 2))
+
+-- memo' f =
+--   f (wrap f)
+
+
 
 fib :: Integer -> Integer
 fib 0 = 1
@@ -63,27 +95,25 @@ fib'' x = do
   return $ l1 + l2
 
 
+-- memo :: Eq a => (a -> b) -> a -> State [(a,b)] b
+-- memo f = do
+--   let memoer x = do
+--         result <- lookup x <$> get
 
+--         case result of
+--           Nothing -> do
 
-memo :: Eq a => (a -> b) -> a -> State [(a,b)] b
-memo f = do
-  let memoer x = do
-        result <- lookup x <$> get
+--             new1 <- memoer (x - 1)
+--             new2 <- fib' (x - 2)
+--             let res = new1 + new2
+--             memory <- get
+--             let memory' = (x, res) : memory
+--             put memory'
+--             return res
 
-        case result of
-          Nothing -> do
-
-            new1 <- memoer (x - 1)
-            new2 <- fib' (x - 2)
-            let res = new1 + new2
-            memory <- get
-            let memory' = (x, res) : memory
-            put memory'
-            return res
-
-          Just res ->
-            return res
-  undefined
+--           Just res ->
+--             return res
+--   undefined
 
 test = do
   runFib
