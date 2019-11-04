@@ -45,11 +45,14 @@ digraph G {
     Void -> Unit [label="absurd"];
     Void -> Bool [label="absurd"];
     Void -> Void [label="id"];
-
+    
     Unit -> Bool [label="const True"];
     Unit -> Bool [label="const False"];
     Unit -> Unit [label="id"];
-
+    
+    
+    Bool -> Unit [label="const ()"];
+    
     Bool -> Bool [label="id", headport=e, tailport=e];
     Bool -> Bool [label="not", headport=w, tailport=w];
     Bool -> Bool [label="const True", headport=s tailport=s];
