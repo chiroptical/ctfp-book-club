@@ -1,0 +1,40 @@
+{
+	"name": "fp-in-typescript",
+	"version": "1.0.0",
+	"description": "Hardcore fp workshop in typescript",
+	"main": "index.ts",
+	"scripts": {
+		"build": "tsc --build tsconfig.json",
+		"build:dev": "tsc -b -w tsconfig.json",
+		"lint": "node_modules/.bin/tslint -c tslint.json '*/*.ts'",
+		"compile": "tsc -p ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JonathanLorimer/fp-in-typescript.git"
+	},
+	"keywords": [
+		"functional",
+		"programming",
+		"fp",
+		"typescript"
+	],
+	"author": "Jonathan Lorimer",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/JonathanLorimer/fp-in-typescript/issues"
+	},
+	"homepage": "https://github.com/JonathanLorimer/fp-in-typescript#readme",
+	"dependencies": {
+		"@types/node": "^12.7.2",
+		"immutable": "^4.0.0-rc.12",
+		"ts-node": "^8.3.0",
+		"tslint": "^5.19.0",
+		"typescript": "^3.6.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-typescript": "^7.3.3"
+	}
+}
