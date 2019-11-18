@@ -1,0 +1,10 @@
+digraph {
+    Void -> "()" [label="const ()"];
+    Bool -> "()" [label="const ()"];
+
+    Void -> Bool [label="absurd"];
+    "()" -> Bool [label="ignore"]; // I found this one via Hoogle
+
+    "()" -> Void [label="undefined"];
+    Bool -> Void [label="undefined"];
+}
