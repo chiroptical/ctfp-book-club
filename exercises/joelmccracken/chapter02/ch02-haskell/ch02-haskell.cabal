@@ -1,0 +1,32 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c02fed001a01aa62c1cc2d50e03bc7835a76019ac6fbfec30fd3e0cfde988f3f
+
+name:           ch02-haskell
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/ch02-haskell#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2019 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable ch02-haskell
+  main-is: Main.hs
+  other-modules:
+      Paths_ch02_haskell
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , criterion
+    , mtl
+  default-language: Haskell2010
