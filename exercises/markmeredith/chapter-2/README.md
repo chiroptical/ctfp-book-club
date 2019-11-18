@@ -1,12 +1,15 @@
-1. take a memo....
-2. See test_rng in src/lib.rs; does not work!
-2. See test_seeded_rng in src/lib.rs; works!
+1. TODO
+2. TODO See test_rng in src/lib.rs; does not work!
+3. TODO See test_seeded_rng in src/lib.rs; works!
+
 4. (a) is the only pure function
+
 5. four possible functions:
  - id_bool: bool->bool
  - not: bool->bool
  - or_true: bool->bool
  - and_false: bool->bool
+
 6. Objects:  void, unit, bool
 
 Morphisms:
