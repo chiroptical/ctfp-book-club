@@ -44,15 +44,11 @@ id' = id
 not' :: Bool -> Bool
 not' = not
 
-isTrue :: Bool -> Bool
-isTrue = \case
-  True -> True
-  False -> False
+true :: Bool -> Bool
+true = const True
 
-isFalse :: Bool -> Bool
-isFalse = \case
-  False -> True
-  True -> False
+false :: Bool -> Bool
+false = const False
 --------
 
 main :: IO ()

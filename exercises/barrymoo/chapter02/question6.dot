@@ -1,10 +1,18 @@
 digraph {
-    Void -> "()" [label="const ()"];
+    Void -> "()" [label="const ()"]; // Can't be evaluated at term level
     Bool -> "()" [label="const ()"];
 
     Void -> Bool [label="absurd"];
-    "()" -> Bool [label="ignore"]; // I found this one via Hoogle
+    "()" -> Bool [label="const True"]; // I found this one via Hoogle
+    "()" -> Bool [label="const False"];
 
     "()" -> Void [label="undefined"];
     Bool -> Void [label="undefined"];
+
+    Void -> Void [label="id"]; // Can't be evaluated at term level
+    "()" -> "()" [label="id"];
+    Bool -> Bool [label="id"];
+    Bool -> Bool [label="not"];
+    Bool -> Bool [label="const True"];
+    Bool -> Bool [label="const False"];
 }
