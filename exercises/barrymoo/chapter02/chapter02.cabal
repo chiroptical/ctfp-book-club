@@ -21,3 +21,4 @@ executable chapter02
                        , transformers
                        , containers
                        , random
+                       , criterion
