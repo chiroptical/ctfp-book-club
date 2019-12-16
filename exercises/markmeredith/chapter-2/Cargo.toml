@@ -1,9 +1,11 @@
 [package]
-name = "chapter0"
+name = "chapter-2"
 version = "0.1.0"
-authors = ["Mark Meredith <mwm126@gmail.com>"]
+authors = ["Mark Meredith <mark.meredith@netl.doe.gov>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand="0.7"
+rand_chacha="0.2"
