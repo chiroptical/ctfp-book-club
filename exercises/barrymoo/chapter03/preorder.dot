@@ -1,0 +1,19 @@
+digraph {
+  A -> A [label="A <= A"];
+  A -> B [label="A <= B"];
+  B -> B [label="B <= B"];
+  B -> C [label="B <= C"];
+  C -> C [label="C <= C"];
+  A -> C [label="A <= C"];
+}
+
+/* digraph { */
+/*   B -> B [label="B <= B"]; */
+/*   B -> A [label="A <= B"]; */
+/*   A -> A [label="A <= A"]; */
+/*   C -> A [label="A <= C"]; */
+/*   C -> C [label="C <= C"]; */
+/*   D -> C [label="C <= D"]; */
+/*   D -> D [label="D <= D"]; */
+/*   D -> A [label="A <= D"]; */
+/* } */
