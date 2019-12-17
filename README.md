@@ -51,6 +51,7 @@ All streams will start at 7:30 PM EST
 - 10/21/19: Explanation of book club and Chapter 1
 - 11/18/19: Chapter 2
 - 12/16/19: Chapter 3
+- 01/20/20: Chapter 4
 
 ## Guidelines for Participation
 
