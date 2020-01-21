@@ -52,6 +52,7 @@ All streams will start at 7:30 PM EST
 - 11/18/19: Chapter 2
 - 12/16/19: Chapter 3
 - 01/20/20: Chapter 4
+- 02/17/20: TBD
 
 ## Guidelines for Participation
 
