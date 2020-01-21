@@ -1,0 +1,22 @@
+Definitions:
+- hom-set H(a,b) :: set of morphisms from a to b.
+
+When generating a free category from a Graph, the morphisms are all
+*paths* through the graph.
+
+** Orders
+
+https://en.wikipedia.org/wiki/Preorder
+https://en.wikipedia.org/wiki/Partially_ordered_set
+https://en.wikipedia.org/wiki/Total_order
+
+Required Properties to be the above:
+|               | reflexive | transitive | anti-symmetric | connected |
+|---------------+-----------+------------+----------------+-----------|
+| pre-order     | x         | x          |                |           |
+| partial-order | x         | x          | x              |           |
+| totall-order  | x         | x          | x              | x         |
+
+** Monoid
+- Not all endomorphisms are identity morphisms.
+
