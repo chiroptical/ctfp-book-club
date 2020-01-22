@@ -7,5 +7,4 @@ run: safe
 > ./safe
 
 safe: safe.cpp
-> clang-format -i safe.cpp
 > g++ -std=c++17 -o safe safe.cpp
