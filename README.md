@@ -78,9 +78,11 @@ We realized that at the rate we are going it will take ~3 years to complete the 
     - [Bartosz on Functors in Programming](https://www.youtube.com/watch?v=EO86S2EZssc)
     - [Bartosz on Functoriality, Bifunctors](https://www.youtube.com/watch?v=pUQ0mmbIdxs)
     - [Bartosz on Functoriality, Profunctors](https://www.youtube.com/watch?v=wtIKd8AhJOc)
-    - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
     - [George Wilson on Varieties of Functors](https://www.youtube.com/watch?v=JUVMiRRq6wU)
+    - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
     - [George Wilson on Functor Contravariance](https://www.youtube.com/watch?v=IJ_bVVsQhvc)
+    - [Emily Pillmore et al. on Profunctor Optics](https://arxiv.org/pdf/2001.07488.pdf)
+
 
 #### April 20th
 > NOTE: This would be a really heavy month, these are two topics
