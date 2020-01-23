@@ -56,7 +56,15 @@ All streams will start at 7:30 PM EST
 
 ## Proposed Curriculum
 
-We realized that at the rate we are going it will take ~3 years to complete the book. This didn't sit well with some of us. We had 2 options; increase the frequency of meetings, or increase the volume of reading per meeting. Meeting more frequently is more onerous on everyone's already busy schedules, however going over more material while meeting with the same cadence constrains the depth conversation. Our solution is to add more volume, but have ad hoc conversations in the `PGHFP` slack. Anyways, here is the proposed curriculum moving forward. The idea is that we will complete up to `Section 3` by July, and re-evaluate interest in continuing forward!
+We realized that at the rate we are going it will take ~3 years to complete the
+book. This didn't sit well with some of us. We had 2 options; increase the
+frequency of meetings, or increase the volume of reading per meeting. Meeting
+more frequently is more onerous on everyone's already busy schedules, however
+going over more material while meeting with the same cadence constrains the
+depth conversation. Our solution is to add more volume, but use issues (e.g. [#19](https://github.com/barrymoo/ctfp-book-club/issues/19))
+to narrow down to the important discussion points. Anyways, here is the proposed
+curriculum moving forward. The idea is that we will complete up to `Section 3`
+by July, and re-evaluate interest in continuing forward!
 
 #### February 17th
 - Reading:
