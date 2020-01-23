@@ -64,6 +64,7 @@ We realized that at the rate we are going it will take ~3 years to complete the 
     - `Chapter 6 - Simple Algebraic Data Types`
 - Additional Materials for the Interested Participant:
     - [Bartosz Terminal and Initial Objects](https://www.youtube.com/watch?v=zer1aFgj4aU)
+    - [Dialectic on Any type as a Terminal Object](https://alexknvl.com/posts/any-is-final-object.html)
     - [Bartosz Products](https://www.youtube.com/watch?v=Bsdl_NKbNnU)
     - [Bartosz ADTs](https://www.youtube.com/watch?v=w1WMykh7AxA)
     - [Bartosz Coproducts, Sum Types](https://www.youtube.com/watch?v=LkIRsNj9T-8)
