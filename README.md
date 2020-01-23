@@ -54,6 +54,86 @@ All streams will start at 7:30 PM EST
 - 01/20/20: Chapter 4
 - 02/17/20: TBD
 
+## Proposed Curriculum
+
+We realized that at the rate we are going it will take ~3 years to complete the book. This didn't sit well with some of us. We had 2 options; increase the frequency of meetings, or increase the volume of reading per meeting. Meeting more frequently is more onerous on everyone's already busy schedules, however going over more material while meeting with the same cadence constrains the depth conversation. Our solution is to add more volume, but have ad hoc conversations in the `PGHFP` slack. Anyways, here is the proposed curriculum moving forward. The idea is that we will complete up to `Section 3` by July, and re-evaluate interest in continuing forward!
+
+#### February 17th
+- Reading:
+    - `Chapter 5 - Products and Coproducts`
+    - `Chapter 6 - Simple Algebraic Data Types`
+- Additional Materials for the Interested Participant:
+    - [Bartosz Terminal and Initial Objects](https://www.youtube.com/watch?v=zer1aFgj4aU)
+    - [Bartosz Products](https://www.youtube.com/watch?v=Bsdl_NKbNnU)
+    - [Bartosz ADTs](https://www.youtube.com/watch?v=w1WMykh7AxA)
+    - [Bartosz Coproducts, Sum Types](https://www.youtube.com/watch?v=LkIRsNj9T-8)
+    - [Catsters Series on Products / Coproducts](https://www.youtube.com/watch?v=upCSDIO9pjc)
+
+#### March 16th
+- Reading:
+    - `Chapter 7 - Functors`
+    - `Chapter 8 - Functoriality`
+- Additional Materials for the Interested Participant:
+    - [Bartosz on Functors](https://www.youtube.com/watch?v=FyoQjkwsy7o)
+    - [Bartosz on Functors in Programming](https://www.youtube.com/watch?v=EO86S2EZssc)
+    - [Bartosz on Functoriality, Bifunctors](https://www.youtube.com/watch?v=pUQ0mmbIdxs)
+    - [Bartosz on Functoriality, Profunctors](https://www.youtube.com/watch?v=wtIKd8AhJOc)
+    - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
+    - [George Wilson on Varieties of Functors](https://www.youtube.com/watch?v=JUVMiRRq6wU)
+    - [George Wilson on Functor Contravariance](https://www.youtube.com/watch?v=IJ_bVVsQhvc)
+
+#### April 20th
+> NOTE: This would be a really heavy month, these are two topics
+> that are very difficult
+- Reading:
+    - `Chapter 9  - Function Types`
+    - `Chapter 10 - Natural Transformations`
+- Additional Materials for the Interested Participant:
+    - [Bartosz on Function Objects](https://www.youtube.com/watch?v=REqRzMI26Nw)
+    - [Bartosz on Type Algebra](https://www.youtube.com/watch?v=REqRzMI26Nw)
+    - [Bartosz on Natural Transformations](https://www.youtube.com/watch?v=2LJC-XD5Ffo)
+    - [Catsters on Natural Transformations](https://www.youtube.com/watch?v=FZSUwqWjHCU)
+    - [Purescript's Natural Transformation](https://pursuit.purescript.org/packages/purescript-prelude/3.1.0/docs/Data.NaturalTransformation)
+    - [Importance of Natural Transformations](https://math.stackexchange.com/questions/1360849/on-the-importance-of-natural-transformations)
+
+
+#### May 18th
+- Reading
+    - `Chapter 11 - Declarative Programming`
+    - `Chapter 12 - Limits and Colimits`
+    - `Chapter 13 - Free Monoids`
+- Additional Materials for the Interested Participant:
+    - [Declarative Vs Imperative](https://www.youtube.com/watch?v=3XTQSx1A3x8) (note: this is philosophically interesting, but not actually that relevant)
+    - [Bartosz on Limits](https://www.youtube.com/watch?v=sx8FELiIPg8)
+    - [Bartosz on Higher Order Functors](https://www.youtube.com/watch?v=sx8FELiIPg8)
+    - [Bartosz on Naturality Conditions](https://www.youtube.com/watch?v=1AOHbF6Ex8E)
+    - [Bartosz on Examples of Limits and Colimits](https://www.youtube.com/watch?v=TtvVHokhSoM)
+    - [Bartosz on Free Monoids](https://www.youtube.com/watch?v=FbnN0uomy-A)
+    - [Catsters on Limits and Colimits](https://www.youtube.com/watch?v=g47V6qxKQNU)
+    - [Cat. Theory for Beginners: Limits](https://www.youtube.com/watch?v=iCnF67nnpek)
+    - [Pullbacks and Pushouts](https://www.youtube.com/watch?v=XGysPJvCXOc)
+
+#### June 15th
+> Note: This week will be really hard, Rep. Functors
+> and Yoneda are heavily related but both very difficult
+- Reading
+    - `Chapter 14 - Representable Functors`
+    - `Chapter 15 - The Yoneda Lemma`
+- Materials for the Interested Participant:
+    - [Bartosz on Representable Functors](https://www.youtube.com/watch?v=KaBz45nZEZw)
+    - [Representable Functors in Haskell](https://hackage.haskell.org/package/representable-functors-3.2.0.2/docs/Data-Functor-Representable.html)
+    - [Bartosz on Yoneda Lemma](https://www.youtube.com/watch?v=BiWqNdtptDI)
+    - [Catsters on Yoneda and Representables](https://www.youtube.com/watch?v=4QgjKUzyrhM)
+    - [Approaching Yoneda](https://www.youtube.com/watch?v=TWFI4aN4h0Q)
+
+#### July 20th
+- Reading
+    - `Chapter 16 - Yoneda Embedding`
+- Materials for the Interested Participant:
+    - [Bartosz on Yoneda Embedding](https://www.youtube.com/watch?v=p_ydgYm9-yg)
+    - [Cat. Theory for Beginners: Yoneda](https://www.youtube.com/watch?v=h64yZs8ThtQ)
+
+
 ## Guidelines for Participation
 
 We are encouraging active participation in the book club from anyone
