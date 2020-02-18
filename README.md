@@ -52,7 +52,8 @@ All streams will start at 7:30 PM EST
 - 11/18/19: Chapter 2
 - 12/16/19: Chapter 3
 - 01/20/20: Chapter 4
-- 02/17/20: TBD
+- 02/17/20: See https://github.com/barrymoo/ctfp-book-club#february-17th and https://github.com/barrymoo/ctfp-book-club/issues/19
+- 03/16/20: See https://github.com/barrymoo/ctfp-book-club#march-16th and https://github.com/barrymoo/ctfp-book-club/issues/21
 
 ## Proposed Curriculum
 
