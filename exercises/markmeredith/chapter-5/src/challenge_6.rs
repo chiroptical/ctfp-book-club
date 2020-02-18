@@ -33,7 +33,7 @@ fn j_prime(b: bool) -> Either<i16, bool> {
 
 #[cfg(test)]
 mod test_wrong_factoring {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn test_factorization() {
