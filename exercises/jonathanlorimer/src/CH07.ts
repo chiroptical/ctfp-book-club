@@ -55,3 +55,4 @@ const mkReader = <R, A>(reader: (r: R) => A): Reader<R, A> => ({
 -> fmap f . g == fmap f . fmap g                                                (equality by induction)
 
 */
+
