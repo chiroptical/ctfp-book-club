@@ -54,6 +54,7 @@ All streams will start at 7:30 PM EST
 - 01/20/20: Chapter 4
 - 02/17/20: See https://github.com/barrymoo/ctfp-book-club#february-17th and https://github.com/barrymoo/ctfp-book-club/issues/19
 - 03/16/20: See https://github.com/barrymoo/ctfp-book-club#march-16th and https://github.com/barrymoo/ctfp-book-club/issues/21
+- 04/20/20: See https://github.com/barrymoo/ctfp-book-club#april-20th and [#28](https://github.com/barrymoo/ctfp-book-club/issues/28)
 
 ## Proposed Curriculum
 
@@ -89,12 +90,16 @@ by July, and re-evaluate interest in continuing forward!
     - [Bartosz on Functoriality, Bifunctors](https://www.youtube.com/watch?v=pUQ0mmbIdxs)
     - [Bartosz on Functoriality, Profunctors](https://www.youtube.com/watch?v=wtIKd8AhJOc)
     - [George Wilson on Varieties of Functors](https://www.youtube.com/watch?v=JUVMiRRq6wU)
-    - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
     - [George Wilson on Functor Contravariance](https://www.youtube.com/watch?v=IJ_bVVsQhvc)
-    - [Emily Pillmore et al. on Profunctor Optics](https://arxiv.org/pdf/2001.07488.pdf)
 
 
 #### April 20th
+
+- Profunctors
+    - [Emily Pillmore et al. on Profunctor Optics](https://arxiv.org/pdf/2001.07488.pdf)
+    - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
+
+#### Suggested Week
 > NOTE: This would be a really heavy month, these are two topics
 > that are very difficult
 - Reading:
@@ -109,7 +114,7 @@ by July, and re-evaluate interest in continuing forward!
     - [Importance of Natural Transformations](https://math.stackexchange.com/questions/1360849/on-the-importance-of-natural-transformations)
 
 
-#### May 18th
+#### Suggested Week
 - Reading
     - `Chapter 11 - Declarative Programming`
     - `Chapter 12 - Limits and Colimits`
@@ -125,7 +130,7 @@ by July, and re-evaluate interest in continuing forward!
     - [Cat. Theory for Beginners: Limits](https://www.youtube.com/watch?v=iCnF67nnpek)
     - [Pullbacks and Pushouts](https://www.youtube.com/watch?v=XGysPJvCXOc)
 
-#### June 15th
+#### Suggested Week
 > Note: This week will be really hard, Rep. Functors
 > and Yoneda are heavily related but both very difficult
 - Reading
@@ -138,13 +143,12 @@ by July, and re-evaluate interest in continuing forward!
     - [Catsters on Yoneda and Representables](https://www.youtube.com/watch?v=4QgjKUzyrhM)
     - [Approaching Yoneda](https://www.youtube.com/watch?v=TWFI4aN4h0Q)
 
-#### July 20th
+#### Suggested Week
 - Reading
     - `Chapter 16 - Yoneda Embedding`
 - Materials for the Interested Participant:
     - [Bartosz on Yoneda Embedding](https://www.youtube.com/watch?v=p_ydgYm9-yg)
     - [Cat. Theory for Beginners: Yoneda](https://www.youtube.com/watch?v=h64yZs8ThtQ)
-
 
 ## Guidelines for Participation
 
