@@ -54,7 +54,7 @@ All streams will start at 7:30 PM EST
 - 01/20/20: Chapter 4
 - 02/17/20: See https://github.com/barrymoo/ctfp-book-club#february-17th and https://github.com/barrymoo/ctfp-book-club/issues/19
 - 03/16/20: See https://github.com/barrymoo/ctfp-book-club#march-16th and https://github.com/barrymoo/ctfp-book-club/issues/21
-- 04/20/20: See https://github.com/barrymoo/ctfp-book-club#april-20th and [#28](https://github.com/barrymoo/ctfp-book-club/issues/28)
+- 04/27/20 (postponed from 04/20/20): See https://github.com/barrymoo/ctfp-book-club#april-20th and [#28](https://github.com/barrymoo/ctfp-book-club/issues/28)
 
 ## Proposed Curriculum
 
