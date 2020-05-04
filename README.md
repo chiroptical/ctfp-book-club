@@ -55,6 +55,7 @@ All streams will start at 7:30 PM EST
 - 02/17/20: See https://github.com/barrymoo/ctfp-book-club#february-17th and https://github.com/barrymoo/ctfp-book-club/issues/19
 - 03/16/20: See https://github.com/barrymoo/ctfp-book-club#march-16th and https://github.com/barrymoo/ctfp-book-club/issues/21
 - 04/27/20 (postponed from 04/20/20): See https://github.com/barrymoo/ctfp-book-club#april-20th and [#28](https://github.com/barrymoo/ctfp-book-club/issues/28)
+- 05/18/20: See https://github.com/barrymoo/ctfp-book-club#march-18th and [#31](https://github.com/chiroptical/ctfp-book-club/issues/31)
 
 ## Proposed Curriculum
 
@@ -98,6 +99,10 @@ by July, and re-evaluate interest in continuing forward!
 - Profunctors
     - [Emily Pillmore et al. on Profunctor Optics](https://arxiv.org/pdf/2001.07488.pdf)
     - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
+
+#### March 18th
+
+- TODO
 
 #### Suggested Week
 > NOTE: This would be a really heavy month, these are two topics
