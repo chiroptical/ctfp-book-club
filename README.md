@@ -102,22 +102,21 @@ by July, and re-evaluate interest in continuing forward!
 
 #### March 18th
 
-- TODO
+- Reading
+  - `Chapter 9  - Function Types`
+- Additional Materials for the Interested Participant:
+  - [Bartosz on Function Objects](https://www.youtube.com/watch?v=REqRzMI26Nw)
+  - [Bartosz on Type Algebra](https://www.youtube.com/watch?v=REqRzMI26Nw)
 
 #### Suggested Week
-> NOTE: This would be a really heavy month, these are two topics
-> that are very difficult
+
 - Reading:
-    - `Chapter 9  - Function Types`
     - `Chapter 10 - Natural Transformations`
 - Additional Materials for the Interested Participant:
-    - [Bartosz on Function Objects](https://www.youtube.com/watch?v=REqRzMI26Nw)
-    - [Bartosz on Type Algebra](https://www.youtube.com/watch?v=REqRzMI26Nw)
     - [Bartosz on Natural Transformations](https://www.youtube.com/watch?v=2LJC-XD5Ffo)
     - [Catsters on Natural Transformations](https://www.youtube.com/watch?v=FZSUwqWjHCU)
     - [Purescript's Natural Transformation](https://pursuit.purescript.org/packages/purescript-prelude/3.1.0/docs/Data.NaturalTransformation)
     - [Importance of Natural Transformations](https://math.stackexchange.com/questions/1360849/on-the-importance-of-natural-transformations)
-
 
 #### Suggested Week
 - Reading
