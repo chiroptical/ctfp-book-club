@@ -9,19 +9,26 @@
 ;;; 1. Define a natural transformation from the Maybe functor to the
 ;;;    List functor.
 
-;;; Unnecessary arguably akward recreation of the types in common lisp.
-(deftype nothing (type1) (declare (ignorable type1)) nil)
-(deftype just (type1) type1)
-(deftype maybe (type1) `(or (just ,type1) (nothing ,type1)))
+;;; Unnecessary arguably akward recreation of maybe in common lisp.
+(defclass maybe ()
+  ((just :accessor just :initarg :just)))
+(defmethod print-object ((maybe maybe) stream)
+  (print-unreadable-object (maybe stream :type 'maybe)
+    (write (just maybe) :stream stream)))
 
-(deftype list-of (type1) `(or nil (cons ,type1 (list-of ,type1))))
+(defmethod mapcar (f (maybe maybe) &rest more-maybes)
+  (apply #'values
+         (iter (for m in (cons maybe more-maybes))
+               (when (just m)
+                 (collect (make-instance 'maybe :just (funcall f (just m))))))))
 
-(declaim (type (ftype (function (maybe t)) (list-of t)) alpha))
-(defun alpha (a-maybe)
-  (ecase a-maybe
+(defun alpha (maybe)
+  (case (just maybe)
     (nil nil)
-    (t (list a-maybe))))
+    (t (list (just maybe)))))
 
 ;;; We need to prove that:
-;;;   [{maybe f} alpha] = [alpha {mapcar f}]
-;;;   
+;;;   (map-list f) . alpha = alpha . (map-maybe f)
+;;;
+;;; We consider both cases of Maybe (Just and Nil):
+;;;   Nil: alpha . (map-maybe f) nil = alpha nil = nil
