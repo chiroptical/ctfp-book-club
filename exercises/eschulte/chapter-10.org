@@ -1,0 +1,79 @@
+#+Title: Chapter 10
+
+1. Define a natural transformation from the Maybe functor to the List
+   functor.
+
+   #+BEGIN_SRC haskell
+   alpha : Maybe a -> List a
+   alpha Nothing = []
+   alpha Just a = [a]
+   #+END_SRC
+
+   Prove the naturality condition for it.
+
+   : (list f) . alpha = alpha . (Maybe f)
+
+   Two cases, Nothing and Just.
+
+   - if Nothing then =(Maybe f) = const Nothing=, =alpha = const []=,
+     and =(list f) = id= so:
+     : (list f) . alpha = alpha . (Maybe f)
+     : (list f) . alpha = Const [] . Const Nothing
+     : (list f) . alpha = Const []
+     : (list f) . Const [] = Const []
+     : id . Const [] = Const []
+     : Const [] = Const []
+
+   - if Just then =(Maybe f) = f . Just=, =alpha = list=, and
+     =(list f) = (mapcar f)= so:
+     : (list f) . alpha = alpha . (Maybe f)
+     : (list f) . alpha = alpha . f . Just
+     : (list f) . alpha = alpha . f
+     : (list f) . list = list . f
+     : (mapcar f) . list = list . f
+     : list . f = list . f
+
+2. Define at least two different natural transformations between
+   =Reader ()= and the list functor.
+
+   #+BEGIN_SRC haskell
+   alpha : Reader () a -> List a
+   alpha () -> a = [a]
+   #+END_SRC
+
+   : (list f) . alpha = alpha . (Reader f)
+   : (list f) . alpha = alpha . f . (() -> a)
+   : (list f) . alpha = alpha . (() -> (f a))
+   : (list f) . alpha = [(f a)]
+   : (list f) . [a] = [(f a)]
+   : [f a] = [(f a)]
+
+   #+BEGIN_SRC haskell
+   alpha : Reader () a -> List a
+   alpha () -> a = []
+   #+END_SRC
+
+   : (list f) . alpha = alpha . (Reader f)
+   : (list f) . alpha = alpha . f . (() -> a)
+   : (list f) . alpha = alpha . (() -> (f a))
+   : (list f) . alpha = []
+   : (list f) . [] = []
+   : [] = []
+
+   How many different lists of () are there? |N|
+
+3. Continue the previous exercise with Reader, Bool, and Maybe.
+
+   #+BEGIN_SRC haskell
+   alpha : Reader Bool a -> List a
+   alpha True -> a = [a]
+   alpha False -> a = []
+   #+END_SRC
+
+   : TODO
+
+4. Show that horizontal composition of natural transformations
+   satsifies the naturality condition (hint: use components).  It's a
+   good exercise in diagram chasing.
+
+   I got bogged down drawing arrows...
