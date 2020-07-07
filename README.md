@@ -100,7 +100,7 @@ by July, and re-evaluate interest in continuing forward!
     - [Emily Pillmore et al. on Profunctor Optics](https://arxiv.org/pdf/2001.07488.pdf)
     - [Vladimir Ciobanu on Functor Family](https://cvlad.info/profunctor/)
 
-#### March 18th
+#### May 18th
 
 - Reading
   - `Chapter 9  - Function Types`
@@ -108,7 +108,7 @@ by July, and re-evaluate interest in continuing forward!
   - [Bartosz on Function Objects](https://www.youtube.com/watch?v=REqRzMI26Nw)
   - [Bartosz on Type Algebra](https://www.youtube.com/watch?v=REqRzMI26Nw)
 
-#### June 15th
+#### July 20th
 
 - Reading:
     - `Chapter 10 - Natural Transformations`
