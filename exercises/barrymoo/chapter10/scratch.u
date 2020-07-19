@@ -1,0 +1,43 @@
+---
+
+ntMaybeList : Optional a -> List a
+ntMaybeList = cases
+  Some x -> [x]
+  None -> []
+
+test> ntMaybeList.tests.naturalityCondition = runs 100 'let
+  x = Some !(natIn 0 100000)
+  lhs = List.map (x -> x + 1) (ntMaybeList x)
+  rhs = ntMaybeList (Optional.map (x -> x + 1) x)
+  expect (lhs == rhs)
+
+type Reader c a = Reader (c -> a)
+
+Reader.map : (a -> b) -> Reader c a -> Reader c b
+Reader.map f = cases
+  Reader g -> Reader (x -> f (g x))
+
+ntReaderList : Reader () a -> List a
+ntReaderList = cases
+  Reader f -> [f ()]
+
+ntReaderListTwo : Reader () a -> List a
+ntReaderListTwo = cases
+  Reader f -> []
+
+ntReaderBoolOne : Reader Boolean a -> List a
+ntReaderBoolOne = cases
+  Reader f -> [f true]
+
+ntReaderBoolTwo : Reader Boolean a -> List a
+ntReaderBoolTwo = cases
+  Reader f -> [f false]
+
+ntReaderBoolMaybeOne : Reader Boolean a -> Optional a
+ntReaderBoolMaybeOne = cases
+  Reader f -> Some (f true)
+
+ntReaderBoolMaybeTwo : Reader Boolean a -> Optional a
+ntReaderBoolMaybeTwo = cases
+  Reader f -> Some (f false)
+
