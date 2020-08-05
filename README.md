@@ -57,7 +57,7 @@ All streams will start at 7:30 PM EST
 - 04/27/20 (postponed from 04/20/20): See https://github.com/barrymoo/ctfp-book-club#april-20th and [#28](https://github.com/barrymoo/ctfp-book-club/issues/28)
 - 05/18/20: See https://github.com/barrymoo/ctfp-book-club#march-18th and [#31](https://github.com/chiroptical/ctfp-book-club/issues/31)
 - 07/20/20 (postponed from 06/22/20): See https://github.com/barrymoo/ctfp-book-club#july-20th and [#32](https://github.com/chiroptical/ctfp-book-club/issues/32)
-- 08/17/20: TODO
+- 08/17/20: See https://github.com/barrymoo/ctfp-book-club#august-17th and [#36](https://github.com/chiroptical/ctfp-book-club/issues/36)
 
 ## Proposed Curriculum
 
@@ -119,7 +119,8 @@ by July, and re-evaluate interest in continuing forward!
     - [Purescript's Natural Transformation](https://pursuit.purescript.org/packages/purescript-prelude/3.1.0/docs/Data.NaturalTransformation)
     - [Importance of Natural Transformations](https://math.stackexchange.com/questions/1360849/on-the-importance-of-natural-transformations)
 
-#### Suggested Week
+#### August 17th
+
 - Reading
     - `Chapter 11 - Declarative Programming`
     - `Chapter 12 - Limits and Colimits`
