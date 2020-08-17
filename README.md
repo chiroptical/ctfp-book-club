@@ -1,3 +1,5 @@
+** Postponed until further notice, see https://github.com/chiroptical/ctfp-book-club/issues/37 **
+
 # ctfp-book-club
 
 Pittsburgh Functional Programming Book Club featuring Category Theory for
